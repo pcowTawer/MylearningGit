@@ -1,4 +1,1 @@
-Git is beaytiful system!!!
-And I love it!
-Its my first repository
-
+I write it in win console)
