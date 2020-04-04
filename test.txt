@@ -1,2 +1,4 @@
 Git is beaytiful system!!!
 And I love it!
+Its my first repository
+
