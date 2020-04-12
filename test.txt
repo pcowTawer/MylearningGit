@@ -1,5 +1,1 @@
-	Whose my opinion?
-Git is beaytiful system
-It is interesting and powerfull
-Bcause you can do anything with your versions of project
-And you can easily see, what are you doing
+gamedev
