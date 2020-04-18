@@ -1,0 +1,38 @@
+# IF you write in new line "#" all symbols after that are comments
+*Tums.db
+*.DS_Store
+#.<name> - all files in <project>/	with .<name>	anywhere
+#<project>/Fbracadabra.DS_Store or /asdf/asdf/ff/asfasdklfj.DS_Store
+
+
+# *-> some <symbols> or nothing in that file in that branch of directory tree
+*.log*
+#asedfasdf.logs or asdfasdf.log or asdfasdf.logasdflkjas;df
+
+
+#** some branches in that directory 
+#<name>/**/asd == <name>/.../.../asd  
+#<name>/.../ asd
+
+#[ab] -> a or b   
+#[ab].txt == a.txt or b.txt
+
+#[a-z] -> from <a> to <z> 
+#[a-c].txt == a.txt or b.txt or c.txt
+
+#?.txt -> one <symbol> 
+#a.txt or 3.txt 
+#NOT asdf.txt
+
+#/ in begin == <project>/(only)
+#/abra == <project>/abra
+#NOT <project>/.../abra
+
+#<name>/ -> all file in that directory
+#kes/ == kes/kes/res/pes/t.txt and kes/kes/a.txt 
+
+#!<name>.<name> -> exeption file
+#!a.log (with) *.log == all *.log without a.log
+
+#! - works with directory too
+
