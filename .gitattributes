@@ -1,0 +1,29 @@
+# Settings(set attribute text)
+* text=auto
+#-text if only windows
+#eol=lf if only Unix
+
+#Normalizing is CRLF->LF(If Windows CRLF <- LF)(If Unix LF <- LF)
+
+#Attribute text - determines whether to translate line breaks when writing files git
+#Attribute eol - determines whether to translate line breaks when reading files git
+
+# force text
+
+*.html text
+*.js text
+*.css text
+
+# Windows files(need CRLF)
+*.sln text eol=crlf
+*.bat eol=crlf
+#eol for text auto
+
+# Unix files (need LF)
+*.sh eol=lf
+
+# Binary files
+*.jpg binary
+*.gif -text
+
+#...
